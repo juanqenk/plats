@@ -8,6 +8,7 @@ lang_direction: "ltr"
 color: "#007FFF"
 twitter_username: juan_qenk
 github_username:  juanqenk
+gems: ["jemoji"]
 
 # Build settings
 markdown: kramdown
