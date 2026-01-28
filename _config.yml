@@ -2,7 +2,8 @@
 title: Plats
 email: juanqenk@gmail.com
 description: La base de datos de recetas en texto plano para hackers
-baseurl: ""
+url: "https://juanqenk.github.io"
+baseurl: "/plats"
 language: "es"           # Cambiado de "en" a "es"
 lang_direction: "ltr"
 color: "#F53200"

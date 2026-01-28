@@ -32,7 +32,7 @@
   <meta property="og:description"
     content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:image"
-    content="{% if page.title %}{{ site.baseurl }}/images/{{ page.image }}{% else %}/assets/social.png{% endif %}">
+    content="{% if page.title %}{{ site.baseurl }}/images/{{ page.image }}{% else %}{{ site.baseurl }}/assets/social.png{% endif %}">
 
   <!-- Twitter Meta Tags -->
   <meta name="twitter:card" content="summary_large_image">
@@ -43,7 +43,7 @@
   <meta name="twitter:description"
     content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta name="twitter:image"
-    content="{% if page.title %}{{ site.baseurl }}/images/{{ page.image }}{% else %}/assets/social.png{% endif %}">
+    content="{% if page.title %}{{ site.baseurl }}/images/{{ page.image }}{% else %}{{ site.baseurl }}/assets/social.png{% endif %}">
 
 
   <style>
@@ -129,7 +129,7 @@
 
 <nav
   class="w-full md:w-1/4 lg:w-1/5 md:h-full bg-orange-50 fixed md:relative left-0 bottom-0 flex md:flex-col justify-between md:justify-start px-6 py-4 md:p-8 md:gap-4 z-10 shadow-3xl md:shadow-none print:hidden {% if page.url contains '/recipes/' %}md:hidden{% endif %}">
-  <a href="/"
+  <a href="{{ site.baseurl }}/"
     class="flex flex-col md:flex-row items-center gap-0 md:gap-2 {% if page.url == '/' %}text-primary{% endif %}">
     <svg class="w-12 md:w-10" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
@@ -139,7 +139,7 @@
     <span class="text-sm md:text-2xl font-medium md:font-gelica">Recetas</span>
   </a>
 
-  <a href="/search"
+  <a href="{{ site.baseurl }}/search"
     class="flex flex-col md:flex-row items-center gap-0 md:gap-2 {% if page.url == '/search.html' or page.url == '/search/' %}text-primary{% endif %}">
     <svg class="w-12 md:w-10" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path fill-rule="evenodd" clip-rule="evenodd"
@@ -174,14 +174,14 @@
     <span class="label text-sm md:text-2xl font-medium md:font-gelica">Books</span>
   </a>
 
-  <a href="/participa.html"
+  <a href="{{ site.baseurl }}/participa.html"
     class="flex flex-col md:flex-row items-center gap-0 md:gap-2 {% if page.url == '/participa.html' %}text-primary{% endif %}">
     <svg class="w-12 md:w-10" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
       <path
         d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
     </svg>
     <span class="text-sm md:text-2xl font-medium md:font-gelica">Participa</span>
-  </a> <a href="/about/"
+  </a> <a href="{{ site.baseurl }}/about/"
     class="flex flex-col md:flex-row items-center gap-0 md:gap-2 {% if page.url == '/about/' %}text-primary{% endif %}">
     <svg class="w-12 md:w-10" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path fill-rule="evenodd" clip-rule="evenodd"
