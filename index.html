@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+<div class="content w-full md:w-4/5 h-full overflow-scroll">
+
+  <div class="recipes mb-24 py-8">
+    <h2 class="text-red-950 md:text-primary uppercase font-semibold mb-2 px-6">Más Recientes</h2>
+
+    <div
+      class="flex overflow-scroll md:overflow-visible snap-x md:grid px-6 md:h-full md:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 mb-6">
+      <!-- First 3 Recipes -->
+      {% assign first_recipes = site.recipes | sort:"date" %}
+      {% for post in first_recipes limit:3 %}
+      <a class="recipe w-3/4 md:w-auto flex-shrink-0 block snap-center md:hover:scale-105 md:hover:rotate-1 transition duration-300 group"
+        href="{{ post.url | prepend: site.baseurl }}">
+        <div
+          class="aspect-video w-full rounded-2xl bg-gray-100 mb-4 bg-cover bg-center shadow-md group-hover:shadow-xl transition relative overflow-hidden"
+          {% for image in post.image %} style="background-image:url({{site.baseurl}}/images/{{ image }});" {% endfor %}>
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-60 group-hover:opacity-40 transition">
+          </div>
+        </div>
+        <h1
+          class="font-bold leading-tight text-2xl text-primary font-gelica md:text-lg md:text-gray-900 dark:md:text-gray-100 md:font-inter pr-16 md:pr-0 group-hover:text-primary transition">
+          {{ post.title }}</h1>
+      </a>
+      {% endfor %}
+    </div>
+
+
+    <div class="grid px-6 h-full grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
+
+
+      {% assign sorted = site.recipes | sort:"date" %}
+      {% for post in sorted offset:3 %}
+      <a class="recipe md:hover:scale-105 md:hover:rotate-1 transition duration-300 group"
+        href="{{ post.url | prepend: site.baseurl }}">
+        <div
+          class="aspect-video w-full rounded-2xl bg-gray-100 mb-4 bg-cover bg-center shadow-md group-hover:shadow-xl transition relative overflow-hidden"
+          {% for image in post.image %} style="background-image:url({{site.baseurl}}/images/{{ image }});" {% endfor %}>
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-60 group-hover:opacity-40 transition">
+          </div>
+        </div>
+        <h1
+          class="font-bold leading-tight text-lg text-gray-900 dark:text-gray-100 group-hover:text-primary transition">
+          {{ post.title }}</h1>
+      </a>
+      {% endfor %}
+
+
+    </div>
+  </div>
+
+</div>

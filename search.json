@@ -1,0 +1,21 @@
+---
+---
+[
+  {% for post in site.recipes %}
+    {% assign quote = '"' %}
+    {% assign single_quote = "'" %}
+    {
+      "title": "{{ post.title | escape }}",
+      {% if post.ingredients %}
+      "ingredients": "{% for ingredient in post.ingredients %}{{ ingredient | escape }}, {% endfor %}",
+      {% endif %}
+      {% if post.tags %}
+      {% assign tags_list = post.tags | join: ' ' | split: ',' %}
+      "tags": "{% for tag in tags_list %}{{ tag | strip | remove: quote | remove: single_quote | remove: '&quot;' | remove: '“' | remove: '”' }} {% endfor %}",
+      {% endif %}
+      "image": "{{ site.baseurl }}/images/{{ post.image }}",
+      "url": "{{ site.baseurl }}{{ post.url }}",
+      "description": "{{ post.content | strip_html | remove: quote | remove: single_quote | strip_newlines }}"
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

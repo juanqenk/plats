@@ -1,0 +1,72 @@
+---
+layout: default
+---
+
+<div class="w-full h-full md:overflow-scroll p-8 md:p-12">
+    <div class="max-w-3xl mx-auto flex flex-col gap-8">
+
+        <!-- Image -->
+        {% if page.image %}
+        <div class="w-48 h-48 mx-auto rounded-full overflow-hidden aspect-square">
+            <img src="{{ site.baseurl }}/images/{{ page.image }}" alt="{{ page.title }}"
+                class="w-full h-full object-cover">
+        </div>
+        {% endif %}
+
+        <!-- Title -->
+        <h1 class="font-gelica text-5xl text-center text-primary dark:text-red-500 font-bold">{{ page.title }}</h1>
+
+        <!-- Content -->
+        <div
+            class="text-lg leading-loose [&>*]:mb-6 dark:text-gray-300 text-justify
+                    [&_h1]:font-gelica [&_h1]:text-4xl [&_h1]:text-primary [&_h1]:font-bold [&_h1]:mt-12 [&_h1]:mb-6 [&_h1]:text-left
+                    [&_h2]:font-gelica [&_h2]:text-3xl [&_h2]:text-primary [&_h2]:font-bold [&_h2]:mt-10 [&_h2]:mb-4 [&_h2]:text-left
+                    [&_h3]:font-gelica [&_h3]:text-2xl [&_h3]:text-primary [&_h3]:font-bold [&_h3]:mt-8 [&_h3]:mb-4 [&_h3]:text-left">
+            {{ content }}
+        </div>
+
+        <!-- Links Icons -->
+        <div class="flex justify-center gap-12 mt-12 mb-24">
+
+            {% if page.mail %}
+            <a href="mailto:{{ page.mail }}"
+                class="text-primary hover:text-orange-900 dark:text-red-400 dark:hover:text-red-200 transition transform hover:scale-110"
+                title="Email" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-12 h-12">
+                    <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
+                    <path
+                        d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
+                </svg>
+                <span class="sr-only">Mail</span>
+            </a>
+            {% endif %}
+
+            {% if page.my_web %}
+            <a href="{{ page.my_web }}"
+                class="text-primary hover:text-orange-900 dark:text-red-400 dark:hover:text-red-200 transition transform hover:scale-110"
+                title="Web" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-12 h-12">
+                    <path fill-rule="evenodd"
+                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM4.575 15.6a14.55 14.55 0 01.383-3.6h4.085c.063 1.25.176 2.457.332 3.6H4.575zm.383-7.2a14.55 14.55 0 013.637-.332c.156 1.144.27 2.35.332 3.6H4.958a14.594 14.594 0 01-.383-3.6zM12 4.516c.866 1.29 1.624 2.76 2.223 4.384h-4.446c.6-1.624 1.357-3.094 2.223-4.384zm0 14.968c-.866-1.29-1.624-2.76-2.223-4.384h4.446c-.6 1.624-1.357 3.094-2.223 4.384zM9.356 12C9.278 10.793 9.23 9.516 9.215 8.216h5.57c-.015 1.3-.063 2.577-.14 3.784H9.356zm8.851-3.885a14.55 14.55 0 01.383 3.6h-4.38c.157-1.2.27-2.456.332-3.6h3.665zm-.383 7.485a14.55 14.55 0 01-3.637.332c.156-1.143.27-2.35.332-3.6h4.428a14.556 14.556 0 01-1.123 3.268zM15.228 17.58a16.035 16.035 0 01-3.228 1.838 16.046 16.046 0 01-3.228-1.838h6.456zM7.222 17.58c-1.29-.685-2.427-1.558-3.342-2.6.936-1.05 1.89-2.022 2.846-2.91 1.002.95 2.05 1.875 3.125 2.783L7.222 17.58zm12.008-2.6c-.915 1.042-2.052 1.915-3.342 2.6-.96-1.745-1.92-3.468-2.63-5.51 1.077-.908 2.124-1.833 3.125-2.783.957.888 1.91 1.86 2.847 2.91.73-.24 1.488-.415 2.268-.523a14.553 14.553 0 00-2.268-2.387zM4.686 8.01c.717-.23 1.458-.396 2.22-.493-.075 1.222-.124 2.47-.142 3.743h-.002c-1.07.942-2.115 1.862-3.128 2.76.713-2.028 1.666-3.92 2.825-5.636-.59.544-1.16 1.11-1.705 1.7-1.107 1.186-2.08 2.502-2.906 3.918 1.656-2.43 3.65-4.577 5.92-6.326z"
+                        clip-rule="evenodd" />
+                </svg>
+                <span class="sr-only">Web</span>
+            </a>
+            {% endif %}
+
+            {% if page.my_blog %}
+            <a href="{{ page.my_blog }}"
+                class="text-primary hover:text-orange-900 dark:text-red-400 dark:hover:text-red-200 transition transform hover:scale-110"
+                title="Blog" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="1.5" class="w-12 h-12">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
+                </svg>
+                <span class="sr-only">Blog</span>
+            </a>
+            {% endif %}
+
+        </div>
+    </div>
+</div>
