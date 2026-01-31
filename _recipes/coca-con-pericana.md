@@ -11,7 +11,7 @@ author: Juan Cuenca
 directions:
 - Prepara las cocas a la pala
 - Mientras las cocas suben, haz la pericana
-- Presenta las cocas con salazones, queso y jamón acompañado de la pericana. 
+- Presenta las cocas con salazones, queso y jamón, acompañado de la pericana. 
 
 components:
 - Coca a la Pala

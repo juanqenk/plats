@@ -9,7 +9,7 @@ persons: 4
 author: Juan Cuenca
 
 ingredients:
-- Para la masa
+
 - 125 ml. de aceite de girasol
 - 125 ml. de manteca de cerdo derretida (o bien sustituir por otros 125 ml. de aceite)
 - 125 ml. de aguardiente de anís o mistela
@@ -19,27 +19,26 @@ ingredients:
 - ralladura de medio limón
 - canela
 - 1 clara y azúcar y canela mezclados para espolvorear.
-- Para el dulce de boniato
+
 - 1 y ½ kilo de boniatos enteros
 - 1 kilo de azúcar
 - 225 ml. de agua
 - la piel rallada de dos limones
 - canela
 directions:
-- Asar los boniatos al horno.
-- Pelar, triturar y reservar los boniatos. 
-- Cocer el agua con el azúcar haciendo un almíbar espeso.
-- Añadir el boniato, mezclar bien, bajar el fuego al mínimo.
-- Agregar la ralladura de los limones y espolvorear con canela. 
-- Cocer removiendo de vez en cuando para que no se pegue al fondo, hasta que quede una crema finita.
-- Para la masa, derretir la manteca con el azúcar.
-- Templar el aceite. 
-- Ir añadiendo la harina al aceite, manteca y aguardiente. 
-- Añadir la ralladura de limón, la yema y canela.
-- Amasar.
-- Hacer montoncitos con la masa y estirarlos con la ayuda de un rodillo de cocina. 
-- Poner el relleno, cerrar, pintar con la clara y espolvorear con el azúcar y canela mezclados. 
-- Hornear a 180º C. unos 15 minutos.
+- Asa los boniatos enteros en el horno hasta que estén tiernos. Después, pélalos con cuidado, tritúralos bien y reserva la pulpa para el relleno.
+- Cuece el agua junto con el azúcar en un cazo hasta obtener un almíbar de consistencia espesa, controlando siempre que no se queme.
+- Añade el boniato triturado al almíbar y mezcla bien. Baja el fuego al mínimo.
+- Agrega la ralladura de los limones y espolvorea canela al gusto. Estos ingredientes aportarán el aroma cítrico y especiado característico de este dulce tradicional.
+- Cuece la mezcla removiendo constantemente para evitar que se pegue al fondo. Sigue hasta obtener una crema fina.
+- En un recipiente aparte, derrite la manteca de cerdo con el azúcar hasta que ambos ingredientes queden perfectamente integrados y líquidos.
+- Templa el aceite de oliva suavemente, evitando que llegue a humear, para facilitar la mezcla posterior con los demás ingredientes de la masa.
+- Incorpora la harina poco a poco al aceite, la manteca fundida y el aguardiente. Mezcle con movimientos envolventes para evitar grumos.
+- Añade la ralladura de limón, la yema de huevo y un toque de canela. Estos elementos darán color y un sabor extra a la pasta.
+- Trabaja la mezcla con las manos hasta obtener una masa elástica, homogénea y que no se pegue.
+- Divide la masa en montoncitos iguales y estíralos con un rodillo de cocina sobre una superficie enharinada hasta formar círculos finos.
+- Coloca una cucharada de dulce en el centro, dobla la masa y cierra los bordes. Pinta con clara, azúcar y canela para decorar.
+- Introduce los pastissets en el horno precalentado a 180°C durante unos 15 minutos. Deben quedar dorados por fuera y tiernos por dentro.
 ---
 
-Un dulce tradicional mediterráneo. 
+Este emblemático dulce navideño de la repostería de las comarcas alicantinas y valencianas, destaca por su masa anisada y su corazón de confitura. Su elaboración artesanal une a las familias durante las fiestas, manteniendo viva una herencia gastronómica que combina ingredientes locales como el boniato y el aguardiente.

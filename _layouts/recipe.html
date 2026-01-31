@@ -149,10 +149,15 @@ layout: default
     </div>
 
     <div class="clearfix mxn2">
-      {% for component in page.components %}
+      {% assign all_docs = site.components | concat: site.recipes %}
+      {% for component_name in page.components %}
       <div class="sm-col sm-col-4 px2 component-block mb-12 border-t pt-8 dark:border-gray-700">
-        {% for recipe in site.components %}
-        {% if recipe.title == component %}
+        {% assign component_name_clean = component_name | strip | downcase %}
+        {% assign found = false %}
+        {% for recipe in all_docs %}
+        {% assign recipe_title_clean = recipe.title | strip | downcase %}
+        {% if recipe_title_clean == component_name_clean and found == false %}
+        {% assign found = true %}
         <h4 class="font-gelica text-3xl mb-8 mt-4 text-primary dark:text-red-400">{{recipe.title}}</h4>
 
         {% for image in recipe.image %}

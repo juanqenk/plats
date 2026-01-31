@@ -4,7 +4,7 @@ layout: recipe
 title:  "Estofado de ternera"
 image: estofado.jpg
 tags: Comida
-time: "1 hora"
+time: "1 hora y media"
 persons: 4
 author: Juan Cuenca
 ingredients:
@@ -27,22 +27,20 @@ ingredients:
 - 1 pastilla de concentrado de carne (Opcional)
 
 directions:
-- Echa sal y pimienta por encima de todos los trozos de carne
-- Añade la harina y mezcla
-- Pon una olla al fuego y cuando esté bien caliente añade un cuarto de vaso de aceite de oliva.
-- Dora la carne a fuego fuerte pero evitando que se queme
-- Cuando la ternera esté bien dorada sácala y resérvala
-- Pica o tritura la cebolla, el pimiento, el ajo junto con la salsa de tomate y el tomillo.
-- Añade a la olla el picado del paso anterior y la zanahoria pelada y cortada 
-- Saltea durante unos minutos.
-- Devuelve la carne a la olla y remueve durante un minuto.
-- Añade el vino y el caldo y tapa la olla. Deja a fuego bajo durante 1 hora.
-- Pasado este tiempo comprueba que la carne esté bien tierna.
-- Añade las patatas chascadas y vuelve a tapar durante 30 minutos.
-- Servir una vez se haya reducido la salsa y las patatas estén tiernas
+- Esparce sal y pimienta negra recién molida sobre todos los trozos de carne para asegurar que el sabor penetre bien.
+- Añade la harina sobre la carne y mezcla bien hasta que cada trozo quede ligeramente cubierto, lo que ayudará a espesar la salsa más adelante.
+- Pon una olla al fuego y, cuando esté bien caliente, vierte un cuarto de vaso de aceite de oliva virgen extra para empezar el sellado.
+- Dora la ternera a fuego fuerte por todos sus lados, moviéndola con cuidado para evitar que se queme y asegurar que mantenga sus jugos internos.
+- Una vez que la carne presente un color dorado uniforme, retírala de la olla con una espumadera y resérvala en un plato aparte para después.
+- Pica o tritura finamente la cebolla, el pimiento, el ajo, la salsa de tomate y el tomillo hasta obtener una mezcla aromática y homogénea.
+- Añade el picado anterior a la olla junto con la zanahoria pelada y cortada en rodajas, aprovechando el fondo de sabor que dejó la carne.
+- Cocina los vegetales durante unos minutos a fuego medio, removiendo constantemente para que los sabores se integren.
+- Devuelve la carne reservada a la olla y remueve todo el conjunto durante un minuto para que se impregne bien del sofrito y los jugos.
+- Vierte el vino y el caldo, tapa la olla y deja cocinar a fuego bajo durante una hora para que la carne se ablande lentamente.
+- Pasado el tiempo de cocción inicial, comprueba con un tenedor que la carne esté tierna.
+- Añade las patatas chascadas —para que suelten el almidón— y tapa de nuevo, cocinando durante treinta minutos más hasta que estén en su punto.
+- Sirve el guiso una vez que la salsa haya reducido y espesado, asegurándote de que tanto las patatas como la carne tengan una textura melosa.
 ---
 
-Un guiso a fuego lento .
 
-> 3 Personas
-
+Este reconfortante plato es un pilar de la cocina casera que resalta por la ternura de la carne y el sabor concentrado de su salsa. Es un guiso que mejora con el reposo, convirtiéndose en el ejemplo perfecto de cómo el fuego lento transforma ingredientes sencillos en un manjar.
